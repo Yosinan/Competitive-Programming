@@ -9,7 +9,25 @@ def is_leap(year):
     return leap
 
 
-    
-    return leap
 
+print("enter the year :")
 year = int(input())
+
+a = int(input("no to divide :"))
+b = int(input("2nd no: "))
+
+
+print(a // b)
+d = a / b
+print("wiz floating point :" + str(d))
+
+
+
+
+
+def check(leap):
+    if leap == True:
+        print("leap")
+    else:
+        print("not leap")
+
