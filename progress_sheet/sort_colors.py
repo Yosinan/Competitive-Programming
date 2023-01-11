@@ -10,9 +10,5 @@ class Solution(object):
             for j in range(len(nums)):
 
                 if nums[i] < nums[j]:
-
-                     temp = nums[i]
-                     nums[i] = nums[j]
-                     nums[j] = temp
-
-        return nums
+                    nums[i],nums[j] = nums[j],nums[i]
+                
