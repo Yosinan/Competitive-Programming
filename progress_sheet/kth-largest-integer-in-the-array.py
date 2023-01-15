@@ -3,7 +3,7 @@ class Solution(object):
         """
         :type nums: List[str]
         :type k: int
-        :rtype: str
+        :rtype: str 
         """
 
         nums = [int(no) for no in nums]
