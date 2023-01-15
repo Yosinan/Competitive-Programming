@@ -1,4 +1,5 @@
 class Solution:
+    #function
     def sortSentence(self, s: str) -> str:
         a = list(s.split(' '))
         sort_arr = []
