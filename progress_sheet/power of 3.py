@@ -1,4 +1,5 @@
 class Solution:
+    #function
     def isPowerOfThree(self, n) -> bool:
         print(n)
         if n == 1.0 or n == 1:
