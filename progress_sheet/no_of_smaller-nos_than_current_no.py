@@ -2,7 +2,7 @@ class Solution(object):
     def smallerNumbersThanCurrent(self, nums):
         """
         :type nums: List[int]
-        :rtype: List[int]
+        :rtype: List[int] 
         """
         newlist = []
         counter = 0
