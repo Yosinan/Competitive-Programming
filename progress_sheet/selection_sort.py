@@ -1,6 +1,6 @@
 class Solution: 
     def select(self, arr, i):
-        # code here 
+        # code here  
         mini = i
         for j in range(i+1,len(arr)):
             if arr[mini] > arr[j]:
